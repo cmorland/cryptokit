@@ -113,7 +113,7 @@ class CoinRPC(object):
 
     @rpc_conn
     def poke_rpc(self):
-        return self.conn.getinfo()
+        return self.conn.getnetworkinfo()
 
     @rpc_conn
     def set_tx_fee(self, amount):
