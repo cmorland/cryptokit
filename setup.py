@@ -14,7 +14,8 @@ setup(name='cryptokit',
           "quark": ["quark_hash"],
           "ltc": ["ltc_scrypt"],
           "vtc": ["vtc_scrypt"],
-          "drk": ["drk_hash"]
+          "drk": ["drk_hash"],
+          "x11": ["x11_hash"]
       },
       entry_points={
           'console_scripts': [

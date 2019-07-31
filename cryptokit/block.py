@@ -53,7 +53,7 @@ def merkleroot(iterator, be=False, hashes=False):
 def merklebranch(iterator, be=True, hashes=False):
     """ Similar to the above method, this instead generates a merkle branch
     for mining clients to quickly re-calculate the merkle root with minimum
-    of re-hashes while chaning the coinbase extranonce. Big endian by default,
+    of re-hashes while changing the coinbase extranonce. Big endian by default,
     change kwarg for little endian """
     def shamaster(h1, h2):
         if h1 is None:
